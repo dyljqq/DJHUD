@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7333AFA81D94F9C4007FAFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFA71D94F9C4007FAFEE /* AppDelegate.swift */; };
+		7333AFAA1D94F9C4007FAFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFA91D94F9C4007FAFEE /* ViewController.swift */; };
+		7333AFAD1D94F9C4007FAFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7333AFAB1D94F9C4007FAFEE /* Main.storyboard */; };
+		7333AFAF1D94F9C4007FAFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7333AFAE1D94F9C4007FAFEE /* Assets.xcassets */; };
+		7333AFB21D94F9C4007FAFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7333AFB01D94F9C4007FAFEE /* LaunchScreen.storyboard */; };
+		7333AFBB1D94F9F6007FAFEE /* DJHUDBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFBA1D94F9F6007FAFEE /* DJHUDBaseView.swift */; };
+		7333AFBD1D94FA26007FAFEE /* DJHUDAnimatingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFBC1D94FA26007FAFEE /* DJHUDAnimatingProtocol.swift */; };
+		7333AFBF1D94FB86007FAFEE /* DJHUDUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFBE1D94FB86007FAFEE /* DJHUDUtil.swift */; };
+		7333AFC11D950092007FAFEE /* DJHUDCheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFC01D950092007FAFEE /* DJHUDCheckMarkView.swift */; };
+		7333AFC31D950739007FAFEE /* DJAnimationKeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFC21D950739007FAFEE /* DJAnimationKeyPath.swift */; };
+		7333AFC61D9509FF007FAFEE /* VisualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFC51D9509FF007FAFEE /* VisualView.swift */; };
+		7333AFC81D950CA0007FAFEE /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFC71D950CA0007FAFEE /* Window.swift */; };
+		7333AFCA1D951308007FAFEE /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFC91D951308007FAFEE /* HUD.swift */; };
+		7333AFCC1D951355007FAFEE /* DJHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFCB1D951355007FAFEE /* DJHUD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7333AFA41D94F9C4007FAFEE /* DJHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7333AFA71D94F9C4007FAFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7333AFA91D94F9C4007FAFEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7333AFAC1D94F9C4007FAFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7333AFAE1D94F9C4007FAFEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7333AFB11D94F9C4007FAFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7333AFB31D94F9C4007FAFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7333AFBA1D94F9F6007FAFEE /* DJHUDBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUDBaseView.swift; sourceTree = "<group>"; };
+		7333AFBC1D94FA26007FAFEE /* DJHUDAnimatingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUDAnimatingProtocol.swift; sourceTree = "<group>"; };
+		7333AFBE1D94FB86007FAFEE /* DJHUDUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUDUtil.swift; sourceTree = "<group>"; };
+		7333AFC01D950092007FAFEE /* DJHUDCheckMarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUDCheckMarkView.swift; sourceTree = "<group>"; };
+		7333AFC21D950739007FAFEE /* DJAnimationKeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJAnimationKeyPath.swift; sourceTree = "<group>"; };
+		7333AFC51D9509FF007FAFEE /* VisualView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualView.swift; sourceTree = "<group>"; };
+		7333AFC71D950CA0007FAFEE /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		7333AFC91D951308007FAFEE /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		7333AFCB1D951355007FAFEE /* DJHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUD.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7333AFA11D94F9C4007FAFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7333AF9B1D94F9C4007FAFEE = {
+			isa = PBXGroup;
+			children = (
+				7333AFA61D94F9C4007FAFEE /* DJHUD */,
+				7333AFA51D94F9C4007FAFEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7333AFA51D94F9C4007FAFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7333AFA41D94F9C4007FAFEE /* DJHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7333AFA61D94F9C4007FAFEE /* DJHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7333AFB91D94F9DC007FAFEE /* Class */,
+				7333AFA71D94F9C4007FAFEE /* AppDelegate.swift */,
+				7333AFA91D94F9C4007FAFEE /* ViewController.swift */,
+				7333AFAB1D94F9C4007FAFEE /* Main.storyboard */,
+				7333AFAE1D94F9C4007FAFEE /* Assets.xcassets */,
+				7333AFB01D94F9C4007FAFEE /* LaunchScreen.storyboard */,
+				7333AFB31D94F9C4007FAFEE /* Info.plist */,
+			);
+			path = DJHUD;
+			sourceTree = "<group>";
+		};
+		7333AFB91D94F9DC007FAFEE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7333AFC41D9509E8007FAFEE /* Internal */,
+				7333AFBA1D94F9F6007FAFEE /* DJHUDBaseView.swift */,
+				7333AFBC1D94FA26007FAFEE /* DJHUDAnimatingProtocol.swift */,
+				7333AFBE1D94FB86007FAFEE /* DJHUDUtil.swift */,
+				7333AFC01D950092007FAFEE /* DJHUDCheckMarkView.swift */,
+				7333AFC21D950739007FAFEE /* DJAnimationKeyPath.swift */,
+				7333AFC91D951308007FAFEE /* HUD.swift */,
+				7333AFCB1D951355007FAFEE /* DJHUD.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		7333AFC41D9509E8007FAFEE /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				7333AFC51D9509FF007FAFEE /* VisualView.swift */,
+				7333AFC71D950CA0007FAFEE /* Window.swift */,
+			);
+			name = Internal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7333AFA31D94F9C4007FAFEE /* DJHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7333AFB61D94F9C4007FAFEE /* Build configuration list for PBXNativeTarget "DJHUD" */;
+			buildPhases = (
+				7333AFA01D94F9C4007FAFEE /* Sources */,
+				7333AFA11D94F9C4007FAFEE /* Frameworks */,
+				7333AFA21D94F9C4007FAFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJHUD;
+			productName = DJHUD;
+			productReference = 7333AFA41D94F9C4007FAFEE /* DJHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7333AF9C1D94F9C4007FAFEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "季勤强";
+				TargetAttributes = {
+					7333AFA31D94F9C4007FAFEE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7333AF9F1D94F9C4007FAFEE /* Build configuration list for PBXProject "DJHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7333AF9B1D94F9C4007FAFEE;
+			productRefGroup = 7333AFA51D94F9C4007FAFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7333AFA31D94F9C4007FAFEE /* DJHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7333AFA21D94F9C4007FAFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7333AFB21D94F9C4007FAFEE /* LaunchScreen.storyboard in Resources */,
+				7333AFAF1D94F9C4007FAFEE /* Assets.xcassets in Resources */,
+				7333AFAD1D94F9C4007FAFEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7333AFA01D94F9C4007FAFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7333AFC11D950092007FAFEE /* DJHUDCheckMarkView.swift in Sources */,
+				7333AFCA1D951308007FAFEE /* HUD.swift in Sources */,
+				7333AFBF1D94FB86007FAFEE /* DJHUDUtil.swift in Sources */,
+				7333AFC81D950CA0007FAFEE /* Window.swift in Sources */,
+				7333AFC61D9509FF007FAFEE /* VisualView.swift in Sources */,
+				7333AFC31D950739007FAFEE /* DJAnimationKeyPath.swift in Sources */,
+				7333AFBD1D94FA26007FAFEE /* DJHUDAnimatingProtocol.swift in Sources */,
+				7333AFAA1D94F9C4007FAFEE /* ViewController.swift in Sources */,
+				7333AFBB1D94F9F6007FAFEE /* DJHUDBaseView.swift in Sources */,
+				7333AFCC1D951355007FAFEE /* DJHUD.swift in Sources */,
+				7333AFA81D94F9C4007FAFEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7333AFAB1D94F9C4007FAFEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7333AFAC1D94F9C4007FAFEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7333AFB01D94F9C4007FAFEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7333AFB11D94F9C4007FAFEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7333AFB41D94F9C4007FAFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7333AFB51D94F9C4007FAFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7333AFB71D94F9C4007FAFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jqq.DJHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7333AFB81D94F9C4007FAFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DJHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jqq.DJHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7333AF9F1D94F9C4007FAFEE /* Build configuration list for PBXProject "DJHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7333AFB41D94F9C4007FAFEE /* Debug */,
+				7333AFB51D94F9C4007FAFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7333AFB61D94F9C4007FAFEE /* Build configuration list for PBXNativeTarget "DJHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7333AFB71D94F9C4007FAFEE /* Debug */,
+				7333AFB81D94F9C4007FAFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7333AF9C1D94F9C4007FAFEE /* Project object */;
+}
