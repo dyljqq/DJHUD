@@ -17,7 +17,10 @@ class ViewController: UIViewController {
     
     
     @IBAction func show(sender: AnyObject) {
-        HUD.flash(.Success)
+        HUD.show(.Progress)
+        delay(2.0) {
+            HUD.flash(.Success)
+        }
     }
     
 

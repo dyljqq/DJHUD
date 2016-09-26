@@ -21,6 +21,11 @@
 		7333AFC81D950CA0007FAFEE /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFC71D950CA0007FAFEE /* Window.swift */; };
 		7333AFCA1D951308007FAFEE /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFC91D951308007FAFEE /* HUD.swift */; };
 		7333AFCC1D951355007FAFEE /* DJHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFCB1D951355007FAFEE /* DJHUD.swift */; };
+		7333AFCE1D98B90F007FAFEE /* DJHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFCD1D98B90F007FAFEE /* DJHUDErrorView.swift */; };
+		73F0565A1D98FF21004D74D7 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73F056591D98FF21004D74D7 /* Image.xcassets */; };
+		73F0565C1D98FFE9004D74D7 /* DJHUDAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F0565B1D98FFE9004D74D7 /* DJHUDAsset.swift */; };
+		73F0565E1D990137004D74D7 /* DJHUDProgessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F0565D1D990137004D74D7 /* DJHUDProgessView.swift */; };
+		73F056601D9901DC004D74D7 /* DJHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F0565F1D9901DC004D74D7 /* DJHUDAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,11 @@
 		7333AFC71D950CA0007FAFEE /* Window.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		7333AFC91D951308007FAFEE /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		7333AFCB1D951355007FAFEE /* DJHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUD.swift; sourceTree = "<group>"; };
+		7333AFCD1D98B90F007FAFEE /* DJHUDErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUDErrorView.swift; sourceTree = "<group>"; };
+		73F056591D98FF21004D74D7 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+		73F0565B1D98FFE9004D74D7 /* DJHUDAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUDAsset.swift; sourceTree = "<group>"; };
+		73F0565D1D990137004D74D7 /* DJHUDProgessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUDProgessView.swift; sourceTree = "<group>"; };
+		73F0565F1D9901DC004D74D7 /* DJHUDAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUDAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,11 @@
 				7333AFC21D950739007FAFEE /* DJAnimationKeyPath.swift */,
 				7333AFC91D951308007FAFEE /* HUD.swift */,
 				7333AFCB1D951355007FAFEE /* DJHUD.swift */,
+				7333AFCD1D98B90F007FAFEE /* DJHUDErrorView.swift */,
+				73F056591D98FF21004D74D7 /* Image.xcassets */,
+				73F0565B1D98FFE9004D74D7 /* DJHUDAsset.swift */,
+				73F0565D1D990137004D74D7 /* DJHUDProgessView.swift */,
+				73F0565F1D9901DC004D74D7 /* DJHUDAnimation.swift */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -166,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7333AFB21D94F9C4007FAFEE /* LaunchScreen.storyboard in Resources */,
+				73F0565A1D98FF21004D74D7 /* Image.xcassets in Resources */,
 				7333AFAF1D94F9C4007FAFEE /* Assets.xcassets in Resources */,
 				7333AFAD1D94F9C4007FAFEE /* Main.storyboard in Resources */,
 			);
@@ -178,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F0565E1D990137004D74D7 /* DJHUDProgessView.swift in Sources */,
 				7333AFC11D950092007FAFEE /* DJHUDCheckMarkView.swift in Sources */,
 				7333AFCA1D951308007FAFEE /* HUD.swift in Sources */,
 				7333AFBF1D94FB86007FAFEE /* DJHUDUtil.swift in Sources */,
@@ -187,8 +204,11 @@
 				7333AFBD1D94FA26007FAFEE /* DJHUDAnimatingProtocol.swift in Sources */,
 				7333AFAA1D94F9C4007FAFEE /* ViewController.swift in Sources */,
 				7333AFBB1D94F9F6007FAFEE /* DJHUDBaseView.swift in Sources */,
+				73F0565C1D98FFE9004D74D7 /* DJHUDAsset.swift in Sources */,
+				73F056601D9901DC004D74D7 /* DJHUDAnimation.swift in Sources */,
 				7333AFCC1D951355007FAFEE /* DJHUD.swift in Sources */,
 				7333AFA81D94F9C4007FAFEE /* AppDelegate.swift in Sources */,
+				7333AFCE1D98B90F007FAFEE /* DJHUDErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +358,7 @@
 				7333AFB81D94F9C4007FAFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,4 +13,5 @@ struct DJAnimationKeyPath {
     static let strokeEnd = "strokeEnd"
     static let center_x = "center.x"
     static let center_y = "center.y"
+    static let transform_rotation_z = "transform.rotation.z"
 }

@@ -11,6 +11,7 @@ import UIKit
 public enum DJHUDType {
     case Success
     case Error
+    case Progress
 }
 
 public class HUD: UIView {
@@ -31,11 +32,10 @@ public class HUD: UIView {
     
     private class func contentView(type: DJHUDType = .Success)-> UIView {
         switch type {
-        case .Success:
-            return DJHUDCheckMarkView()
-        case .Error: break // TODO
+        case .Success: return DJHUDCheckMarkView()
+        case .Error:  return DJHUDErrorView()
+        case .Progress: return DJHUDProgessView()
         }
-        return UIView()
     }
     
 }

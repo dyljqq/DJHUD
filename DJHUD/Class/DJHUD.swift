@@ -33,6 +33,8 @@ public class DJHUD: NSObject {
         return !window.hidden
     }
     
+    public var dismissBackgroundView = true
+    
     public var contentView: UIView {
         get {
             return window.visualView.content
@@ -45,7 +47,11 @@ public class DJHUD: NSObject {
     
     public func show() {
         window.show()
-        window.showBackgroundView(true)
+        if dismissBackgroundView {
+            window.hideBackgroundView(true)
+        } else {
+            window.showBackgroundView(true)
+        }
         startAnimatingContentView()
     }
     
