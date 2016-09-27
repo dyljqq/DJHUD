@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DJHUD"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A HUD for swift project..."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                      轻量级的HUD实现库，简单易用...
+                      轻量级的HUD实现库，简单易用...模仿的PKHUD
                    DESC
 
   s.homepage     = "https://github.com/dyljqq/DJHUD"
