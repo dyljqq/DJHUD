@@ -17,7 +17,11 @@ let clearColor = UIColor.clearColor()
 
 // MARK: - Color
 
-func RGB(red red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat! = 1.0)-> UIColor {
+private func convertColor(color: CGFloat)-> CGFloat {
+    return color >= 0.0 && color <= 1.0 ? color : color / 255.0
+}
+
+func RGB(red red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat = 1.0)-> UIColor {
     var alpha = alpha
     if alpha < 0 {
         alpha = 0.0
@@ -25,10 +29,6 @@ func RGB(red red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat! = 1.0)
         alpha = 1.0
     }
     return UIColor(red: convertColor(red), green: convertColor(green), blue: convertColor(blue), alpha: alpha)
-}
-
-private func convertColor(color: CGFloat)-> CGFloat {
-    return color >= 0.0 && color <= 1.0 ? color : color / 255.0
 }
 
 // MARK: - Other

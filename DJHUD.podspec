@@ -104,7 +104,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "DJHUD/Class/*"
+  # /**/* 目录和子目录
+  s.source_files  = "DJHUD/Class/**/*.{c,h,hh,m,mm,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
