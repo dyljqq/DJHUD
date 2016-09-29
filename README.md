@@ -10,6 +10,18 @@ default type is Success.
 	or
 	HUD.flash(.Success)
 	
+use pod:
+	
+	source 'https://github.com/CocoaPods/Specs.git'
+	platform :ios, '9.0'
+	use_frameworks!
+
+	target 'Your project name' do
+
+	pod 'DJHUD', '~> 1.1.3'
+
+	end
+	
 ###Type
 It has ten types of activity indicator, there are type names:
 
