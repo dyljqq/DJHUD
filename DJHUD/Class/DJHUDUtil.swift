@@ -11,6 +11,7 @@ import UIKit
 // MARK: - Constant value
 
 let DJAlpha: CGFloat = 0.85
+let whiteColor = UIColor.whiteColor()
 let blackColor = UIColor.blackColor()
 let clearColor = UIColor.clearColor()
 
@@ -29,6 +30,10 @@ func RGB(red red: CGFloat, green: CGFloat, blue: CGFloat, alpha: CGFloat! = 1.0)
 private func convertColor(color: CGFloat)-> CGFloat {
     return color >= 0.0 && color <= 1.0 ? color : color / 255.0
 }
+
+// MARK: - Other
+
+let defaultFrame = CGRect(origin: CGPointZero, size: CGSizeMake(156.0, 156.0))
 
 
 // MARK: - Extension

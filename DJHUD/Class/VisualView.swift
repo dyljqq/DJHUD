@@ -8,6 +8,21 @@
 
 import UIKit
 
+// VisualView's background color
+enum VisualViewColor {
+    case white
+    case black
+    case red
+    
+    var description: UIColor {
+        switch self {
+        case .white: return UIColor(white: 0.8, alpha: 0.36)
+        case .black: return UIColor(white: 0, alpha: 0.5)
+        case .red: return RGB(red: 237, green: 85, blue: 101)
+        }
+    }
+}
+
 class VisualView: UIVisualEffectView {
 
     override init(effect: UIVisualEffect?) {
@@ -21,7 +36,7 @@ class VisualView: UIVisualEffectView {
     }
     
     private func setup() {
-        backgroundColor = UIColor(white: 0.8, alpha: 0.36)
+        backgroundColor = VisualViewColor.black.description
         layer.cornerRadius = 10.0
         layer.masksToBounds = true
         

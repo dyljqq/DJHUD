@@ -14,4 +14,9 @@ struct DJAnimationKeyPath {
     static let center_x = "center.x"
     static let center_y = "center.y"
     static let transform_rotation_z = "transform.rotation.z"
+    
+    static let opacity = "opacity"
+    static let transform = "transform"
+    
+    static let scale = "transform.scale"
 }

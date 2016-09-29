@@ -23,6 +23,12 @@ public class DJHUD: NSObject {
     
     private let window = Window()
     
+    public var visualViewBackgroundColor: UIColor = VisualViewColor.white.description {
+        didSet {
+            window.visualView.backgroundColor = visualViewBackgroundColor
+        }
+    }
+    
     public override init() {
         super.init()
         
@@ -69,6 +75,8 @@ public class DJHUD: NSObject {
     func startAnimatingContentView() {
         if isVisual && contentView.conformsToProtocol(DJHUDAnimating) {
             (contentView as? DJHUDAnimating)?.startAnimating()
+        } else if let contentView = contentView as? DJActivityIndicatorView {
+            contentView.startAnimation()
         }
     }
     

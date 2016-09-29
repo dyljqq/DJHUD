@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Vje-p0-SFq">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--HUD Type-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DJHUD" customModuleProvider="target" sceneMemberID="viewController">
@@ -14,26 +14,49 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN2-vb-o2W">
-                                <rect key="frame" x="281" y="285" width="38" height="30"/>
-                                <state key="normal" title="Show"/>
-                                <connections>
-                                    <action selector="show:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dyj-Zb-LP9"/>
-                                </connections>
-                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jve-rN-etq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="cN2-vb-o2W" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0fd-o2-yrV"/>
-                            <constraint firstItem="cN2-vb-o2W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yJu-aB-a4B"/>
+                            <constraint firstItem="jve-rN-etq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Xrn-ND-Lgz"/>
+                            <constraint firstItem="jve-rN-etq" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="kI2-JC-786"/>
+                            <constraint firstItem="jve-rN-etq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qwY-Pp-iDU"/>
+                            <constraint firstItem="jve-rN-etq" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="y65-jS-RGd"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="HUD Type" id="0ii-0i-FAL"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="jve-rN-etq" id="Xl7-Ph-a1d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1204.5" y="254.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yYj-1P-RVt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vje-p0-SFq" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tKX-SP-EEp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="PUd-Xf-qLy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T1Z-Nh-7JC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="393" y="255"/>
         </scene>
     </scenes>
 </document>

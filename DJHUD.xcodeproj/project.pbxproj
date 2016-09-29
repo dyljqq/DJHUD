@@ -22,6 +22,18 @@
 		7333AFCA1D951308007FAFEE /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFC91D951308007FAFEE /* HUD.swift */; };
 		7333AFCC1D951355007FAFEE /* DJHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFCB1D951355007FAFEE /* DJHUD.swift */; };
 		7333AFCE1D98B90F007FAFEE /* DJHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFCD1D98B90F007FAFEE /* DJHUDErrorView.swift */; };
+		7377E9E91D9CDC78007F2E32 /* DJActivityIndicatorBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377E9E81D9CDC78007F2E32 /* DJActivityIndicatorBallPulse.swift */; };
+		7377E9EB1D9CEB72007F2E32 /* DJActivityIndicatorBallRotateClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377E9EA1D9CEB72007F2E32 /* DJActivityIndicatorBallRotateClip.swift */; };
+		7377E9ED1D9CF1D9007F2E32 /* DJActivityIndicatorBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377E9EC1D9CF1D9007F2E32 /* DJActivityIndicatorBallClipRotatePulse.swift */; };
+		7377E9EF1D9CF7D7007F2E32 /* DJActivityIndicatorBallRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377E9EE1D9CF7D7007F2E32 /* DJActivityIndicatorBallRotateMultiple.swift */; };
+		7377E9F11D9CFC03007F2E32 /* DJActivityIndicatorBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377E9F01D9CFC03007F2E32 /* DJActivityIndicatorBallRotate.swift */; };
+		7378B20C1D9BC9B500F2988B /* DJActivityIndicatorDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378B2031D9BC9B500F2988B /* DJActivityIndicatorDoubleBounce.swift */; };
+		7378B20D1D9BC9B500F2988B /* DJActivityIndicatorFiveDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378B2041D9BC9B500F2988B /* DJActivityIndicatorFiveDots.swift */; };
+		7378B20E1D9BC9B500F2988B /* DJActivityIndicatorNineDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378B2051D9BC9B500F2988B /* DJActivityIndicatorNineDots.swift */; };
+		7378B20F1D9BC9B500F2988B /* DJActivityIndicatorRotatingSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378B2061D9BC9B500F2988B /* DJActivityIndicatorRotatingSquare.swift */; };
+		7378B2101D9BC9B500F2988B /* DJActivityIndicatorTriplePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378B2071D9BC9B500F2988B /* DJActivityIndicatorTriplePulse.swift */; };
+		7378B2111D9BC9B500F2988B /* DJActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378B2081D9BC9B500F2988B /* DJActivityIndicatorView.swift */; };
+		7378B2131D9BC9B500F2988B /* DJAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378B20A1D9BC9B500F2988B /* DJAnimationProtocol.swift */; };
 		73F0565A1D98FF21004D74D7 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73F056591D98FF21004D74D7 /* Image.xcassets */; };
 		73F0565C1D98FFE9004D74D7 /* DJHUDAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F0565B1D98FFE9004D74D7 /* DJHUDAsset.swift */; };
 		73F0565E1D990137004D74D7 /* DJHUDProgessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F0565D1D990137004D74D7 /* DJHUDProgessView.swift */; };
@@ -46,6 +58,18 @@
 		7333AFC91D951308007FAFEE /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		7333AFCB1D951355007FAFEE /* DJHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUD.swift; sourceTree = "<group>"; };
 		7333AFCD1D98B90F007FAFEE /* DJHUDErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUDErrorView.swift; sourceTree = "<group>"; };
+		7377E9E81D9CDC78007F2E32 /* DJActivityIndicatorBallPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorBallPulse.swift; sourceTree = "<group>"; };
+		7377E9EA1D9CEB72007F2E32 /* DJActivityIndicatorBallRotateClip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorBallRotateClip.swift; sourceTree = "<group>"; };
+		7377E9EC1D9CF1D9007F2E32 /* DJActivityIndicatorBallClipRotatePulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		7377E9EE1D9CF7D7007F2E32 /* DJActivityIndicatorBallRotateMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorBallRotateMultiple.swift; sourceTree = "<group>"; };
+		7377E9F01D9CFC03007F2E32 /* DJActivityIndicatorBallRotate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorBallRotate.swift; sourceTree = "<group>"; };
+		7378B2031D9BC9B500F2988B /* DJActivityIndicatorDoubleBounce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorDoubleBounce.swift; sourceTree = "<group>"; };
+		7378B2041D9BC9B500F2988B /* DJActivityIndicatorFiveDots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorFiveDots.swift; sourceTree = "<group>"; };
+		7378B2051D9BC9B500F2988B /* DJActivityIndicatorNineDots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorNineDots.swift; sourceTree = "<group>"; };
+		7378B2061D9BC9B500F2988B /* DJActivityIndicatorRotatingSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorRotatingSquare.swift; sourceTree = "<group>"; };
+		7378B2071D9BC9B500F2988B /* DJActivityIndicatorTriplePulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorTriplePulse.swift; sourceTree = "<group>"; };
+		7378B2081D9BC9B500F2988B /* DJActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorView.swift; sourceTree = "<group>"; };
+		7378B20A1D9BC9B500F2988B /* DJAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJAnimationProtocol.swift; sourceTree = "<group>"; };
 		73F056591D98FF21004D74D7 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		73F0565B1D98FFE9004D74D7 /* DJHUDAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUDAsset.swift; sourceTree = "<group>"; };
 		73F0565D1D990137004D74D7 /* DJHUDProgessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUDProgessView.swift; sourceTree = "<group>"; };
@@ -96,6 +120,7 @@
 		7333AFB91D94F9DC007FAFEE /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				7378B2021D9BC9B500F2988B /* ShowView */,
 				7333AFC41D9509E8007FAFEE /* Internal */,
 				7333AFBA1D94F9F6007FAFEE /* DJHUDBaseView.swift */,
 				7333AFBC1D94FA26007FAFEE /* DJHUDAnimatingProtocol.swift */,
@@ -120,6 +145,25 @@
 				7333AFC71D950CA0007FAFEE /* Window.swift */,
 			);
 			name = Internal;
+			sourceTree = "<group>";
+		};
+		7378B2021D9BC9B500F2988B /* ShowView */ = {
+			isa = PBXGroup;
+			children = (
+				7378B2031D9BC9B500F2988B /* DJActivityIndicatorDoubleBounce.swift */,
+				7378B2041D9BC9B500F2988B /* DJActivityIndicatorFiveDots.swift */,
+				7378B2051D9BC9B500F2988B /* DJActivityIndicatorNineDots.swift */,
+				7378B2061D9BC9B500F2988B /* DJActivityIndicatorRotatingSquare.swift */,
+				7378B2071D9BC9B500F2988B /* DJActivityIndicatorTriplePulse.swift */,
+				7378B20A1D9BC9B500F2988B /* DJAnimationProtocol.swift */,
+				7377E9E81D9CDC78007F2E32 /* DJActivityIndicatorBallPulse.swift */,
+				7377E9EA1D9CEB72007F2E32 /* DJActivityIndicatorBallRotateClip.swift */,
+				7377E9EC1D9CF1D9007F2E32 /* DJActivityIndicatorBallClipRotatePulse.swift */,
+				7377E9EE1D9CF7D7007F2E32 /* DJActivityIndicatorBallRotateMultiple.swift */,
+				7377E9F01D9CFC03007F2E32 /* DJActivityIndicatorBallRotate.swift */,
+				7378B2081D9BC9B500F2988B /* DJActivityIndicatorView.swift */,
+			);
+			path = ShowView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,19 +240,31 @@
 			files = (
 				73F0565E1D990137004D74D7 /* DJHUDProgessView.swift in Sources */,
 				7333AFC11D950092007FAFEE /* DJHUDCheckMarkView.swift in Sources */,
+				7378B20F1D9BC9B500F2988B /* DJActivityIndicatorRotatingSquare.swift in Sources */,
+				7378B20D1D9BC9B500F2988B /* DJActivityIndicatorFiveDots.swift in Sources */,
 				7333AFCA1D951308007FAFEE /* HUD.swift in Sources */,
 				7333AFBF1D94FB86007FAFEE /* DJHUDUtil.swift in Sources */,
 				7333AFC81D950CA0007FAFEE /* Window.swift in Sources */,
 				7333AFC61D9509FF007FAFEE /* VisualView.swift in Sources */,
+				7377E9EF1D9CF7D7007F2E32 /* DJActivityIndicatorBallRotateMultiple.swift in Sources */,
+				7378B2101D9BC9B500F2988B /* DJActivityIndicatorTriplePulse.swift in Sources */,
+				7377E9F11D9CFC03007F2E32 /* DJActivityIndicatorBallRotate.swift in Sources */,
 				7333AFC31D950739007FAFEE /* DJAnimationKeyPath.swift in Sources */,
+				7377E9ED1D9CF1D9007F2E32 /* DJActivityIndicatorBallClipRotatePulse.swift in Sources */,
+				7377E9E91D9CDC78007F2E32 /* DJActivityIndicatorBallPulse.swift in Sources */,
 				7333AFBD1D94FA26007FAFEE /* DJHUDAnimatingProtocol.swift in Sources */,
+				7377E9EB1D9CEB72007F2E32 /* DJActivityIndicatorBallRotateClip.swift in Sources */,
+				7378B2111D9BC9B500F2988B /* DJActivityIndicatorView.swift in Sources */,
 				7333AFAA1D94F9C4007FAFEE /* ViewController.swift in Sources */,
 				7333AFBB1D94F9F6007FAFEE /* DJHUDBaseView.swift in Sources */,
 				73F0565C1D98FFE9004D74D7 /* DJHUDAsset.swift in Sources */,
 				73F056601D9901DC004D74D7 /* DJHUDAnimation.swift in Sources */,
 				7333AFCC1D951355007FAFEE /* DJHUD.swift in Sources */,
+				7378B20E1D9BC9B500F2988B /* DJActivityIndicatorNineDots.swift in Sources */,
 				7333AFA81D94F9C4007FAFEE /* AppDelegate.swift in Sources */,
+				7378B2131D9BC9B500F2988B /* DJAnimationProtocol.swift in Sources */,
 				7333AFCE1D98B90F007FAFEE /* DJHUDErrorView.swift in Sources */,
+				7378B20C1D9BC9B500F2988B /* DJActivityIndicatorDoubleBounce.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

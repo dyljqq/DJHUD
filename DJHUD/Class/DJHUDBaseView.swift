@@ -11,7 +11,6 @@ import UIKit
 public class DJHUDBaseView: UIView {
     
     private struct Constant {
-        static let defaultFrame = CGRect(origin: CGPointZero, size: CGSizeMake(156.0, 156.0))
         static let minimumScale: CGFloat = 0.25
     }
     
@@ -20,7 +19,7 @@ public class DJHUDBaseView: UIView {
     }
     
     public init(image: UIImage? = nil, title: String? = "", subtitle: String? = nil) {
-        super.init(frame: Constant.defaultFrame)
+        super.init(frame: defaultFrame)
         
         imageView.image = image
         titleLabel.text = title
