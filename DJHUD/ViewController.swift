@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     
     private var types: [DJHUDType] = [.Success, .Error, .Progress, .NineDots, .TriplePulse,
                                       .FiveDots, .RotatingSquare, .DoubleBounce, .BallPulse, .BallRotateClip,
-                                      .BallClipRotatePulse, .BallRotateMultiple, .BallRotate]
+                                      .BallClipRotatePulse, .BallRotateMultiple, .BallRotate, .BallTriaglePath, .BallScale,
+                                      .LineScale, .LineScaleParty, .BallScaleMultiple]
     
     override func viewDidLoad() {
         super.viewDidLoad()

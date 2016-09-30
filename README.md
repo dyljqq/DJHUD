@@ -4,13 +4,23 @@ A simple swift HUD framework.It is refer to a github project named [PKHUD](https
 
 ###Usage
 
-default type is Success.
+Default type is Success.
 	
 	HUD.flash() 
 	or
 	HUD.flash(.Success)
 	
-use pod:
+And it is also very simple for you to use the view single, for example:
+
+If you have a variable is a DJActivityIndicatorType type, and then:
+	
+	let type: DJActivityIndicatorType = .NineDots
+	let view = type.contentView
+
+###Integrate
+Now it is support pod, and very easy for you to integrate this framework to your project like this way:
+	
+Use pod:
 	
 	source 'https://github.com/CocoaPods/Specs.git'
 	platform :ios, '9.0'
@@ -40,6 +50,11 @@ It has ten types of activity indicator, there are type names:
     case BallClipRotatePulse
     case BallRotateMultiple
     case BallRotate
+    case BallTriaglePath
+    case BallScale
+    case LineScale
+    case LineScaleParty
+    case BallScaleMultiple
 	
 ### ScreenShot
 

@@ -19,6 +19,31 @@ public enum DJActivityIndicatorType {
     case BallClipRotatePulse
     case BallRotateMultiple
     case BallRotate
+    case BallTriaglePath
+    case BallScale
+    case LineScale
+    case LineScaleParty
+    case BallScaleMultiple
+    
+    var layer: DJAnimationProtocol {
+        switch self {
+        case .NineDots: return DJActivityIndicatorNineDots()
+        case .TriplePulse: return DJActivityIndicatorTriplePulse()
+        case .FiveDots: return DJActivityIndicatorFiveDots()
+        case .RotatingSquare: return DJActivityIndicatorRotatingSquare()
+        case .DoubleBounce: return DJActivityIndicatorDoubleBounce()
+        case .BallPulse: return DJActivityIndicatorBallPulse()
+        case .BallRotateClip: return DJActivityIndicatorBallRotateClip()
+        case .BallClipRotatePulse: return DJActivityIndicatorBallClipRotatePulse()
+        case .BallRotateMultiple: return DJActivityIndicatorBallRotateMultiple()
+        case .BallRotate: return DJActivityIndicatorBallRotate()
+        case .BallTriaglePath: return DJActivityIndicatorBallTriaglePath()
+        case .BallScale: return DJAcivityIndicatorBallScale()
+        case .LineScale: return DJActivityIndicatorLineScale()
+        case .LineScaleParty: return DJActivityIndicatorLineScaleParty()
+        case .BallScaleMultiple: return DJActivityIndicatorBallScaleMultiple()
+        }
+    }
 }
 
 public class DJActivityIndicatorView: UIView {
@@ -71,24 +96,9 @@ public class DJActivityIndicatorView: UIView {
     private func setup() {
         animationLayer.sublayers = nil
         
-        let subLayer = getLayer(type)
+        let subLayer = type.layer
         subLayer.setupAnimation(animationLayer, size: size, tintColor: color)
         animationLayer.speed = 0.0
-    }
-    
-    private func getLayer(type: DJActivityIndicatorType)-> DJAnimationProtocol {
-        switch type {
-        case .NineDots: return DJActivityIndicatorNineDots()
-        case .TriplePulse: return DJActivityIndicatorTriplePulse()
-        case .FiveDots: return DJActivityIndicatorFiveDots()
-        case .RotatingSquare: return DJActivityIndicatorRotatingSquare()
-        case .DoubleBounce: return DJActivityIndicatorDoubleBounce()
-        case .BallPulse: return DJActivityIndicatorBallPulse()
-        case .BallRotateClip: return DJActivityIndicatorBallRotateClip()
-        case .BallClipRotatePulse: return DJActivityIndicatorBallClipRotatePulse()
-        case .BallRotateMultiple: return DJActivityIndicatorBallRotateMultiple()
-        case .BallRotate: return DJActivityIndicatorBallRotate()
-        }
     }
     
     required public init?(coder aDecoder: NSCoder) {

@@ -24,45 +24,14 @@ public enum DJHUDType {
     case BallClipRotatePulse
     case BallRotateMultiple
     case BallRotate
+    case BallTriaglePath
+    case BallScale
+    case LineScale
+    case LineScaleParty
+    case BallScaleMultiple
     
-    var description: String {
+    var contentView: UIView {
         switch self {
-        case .Success: return "Success"
-        case .Error: return "Error"
-        case .Progress: return "Progress"
-        case .NineDots: return "NineDots"
-        case .TriplePulse: return "TriplePulse"
-        case .FiveDots: return "FiveDots"
-        case .RotatingSquare: return "RotatingSquare"
-        case .DoubleBounce: return "DoubleBounce"
-        case .BallPulse: return "BallPulse"
-        case .BallRotateClip: return "BallRotateClip"
-        case .BallClipRotatePulse: return "BallClipRotatePulse"
-        case .BallRotateMultiple: return "BallRotateMultiple"
-        case .BallRotate: return "BallRotate"
-        }
-    }
-    
-}
-
-public class HUD {
-    
-    public static func show(type: DJHUDType = .Success) {
-        DJHUD.sharedManager.contentView = contentView(type)
-        DJHUD.sharedManager.show()
-    }
-    
-    public class func hide() {
-        DJHUD.sharedManager.hide(2.0, anim: true)
-    }
-    
-    public class func flash(type: DJHUDType = .Success) {
-        HUD.show(type)
-        HUD.hide()
-    }
-    
-    private class func contentView(type: DJHUDType = .Success)-> UIView {
-        switch type {
         case .Success:
             DJHUD.sharedManager.visualViewBackgroundColor = VisualViewColor.white.description
             return DJHUDCheckMarkView()
@@ -102,7 +71,63 @@ public class HUD {
         case .BallRotate:
             DJHUD.sharedManager.visualViewBackgroundColor = VisualViewColor.black.description
             return DJActivityIndicatorView(type: .BallRotate)
+        case .BallTriaglePath:
+            DJHUD.sharedManager.visualViewBackgroundColor = VisualViewColor.black.description
+            return DJActivityIndicatorView(type: .BallTriaglePath)
+        case .BallScale:
+            DJHUD.sharedManager.visualViewBackgroundColor = VisualViewColor.black.description
+            return DJActivityIndicatorView(type: .BallScale)
+        case .LineScale:
+            DJHUD.sharedManager.visualViewBackgroundColor = VisualViewColor.black.description
+            return DJActivityIndicatorView(type: .LineScale)
+        case .LineScaleParty:
+            DJHUD.sharedManager.visualViewBackgroundColor = VisualViewColor.black.description
+            return DJActivityIndicatorView(type: .LineScaleParty)
+        case .BallScaleMultiple:
+            DJHUD.sharedManager.visualViewBackgroundColor = VisualViewColor.black.description
+            return DJActivityIndicatorView(type: .BallScaleMultiple)
         }
+    }
+    
+    var description: String {
+        switch self {
+        case .Success: return "Success"
+        case .Error: return "Error"
+        case .Progress: return "Progress"
+        case .NineDots: return "NineDots"
+        case .TriplePulse: return "TriplePulse"
+        case .FiveDots: return "FiveDots"
+        case .RotatingSquare: return "RotatingSquare"
+        case .DoubleBounce: return "DoubleBounce"
+        case .BallPulse: return "BallPulse"
+        case .BallRotateClip: return "BallRotateClip"
+        case .BallClipRotatePulse: return "BallClipRotatePulse"
+        case .BallRotateMultiple: return "BallRotateMultiple"
+        case .BallRotate: return "BallRotate"
+        case .BallTriaglePath: return "BallTriaglePath"
+        case .BallScale: return "BallScale"
+        case .LineScale: return "LineScale"
+        case .LineScaleParty: return "LineScaleParty"
+        case .BallScaleMultiple: return "BallScaleMultiple"
+        }
+    }
+    
+}
+
+public class HUD {
+    
+    public static func show(type: DJHUDType = .Success) {
+        DJHUD.sharedManager.contentView = type.contentView
+        DJHUD.sharedManager.show()
+    }
+    
+    public class func hide() {
+        DJHUD.sharedManager.hide(2.0, anim: true)
+    }
+    
+    public class func flash(type: DJHUDType = .Success) {
+        HUD.show(type)
+        HUD.hide()
     }
     
 }
