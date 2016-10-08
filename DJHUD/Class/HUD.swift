@@ -29,6 +29,8 @@ public enum DJHUDType {
     case LineScale
     case LineScaleParty
     case BallScaleMultiple
+    case LineDoubleScale
+    case CookieTerminal
     
     var contentView: UIView {
         switch self {
@@ -86,6 +88,12 @@ public enum DJHUDType {
         case .BallScaleMultiple:
             DJHUD.sharedManager.visualViewBackgroundColor = VisualViewColor.black.description
             return DJActivityIndicatorView(type: .BallScaleMultiple)
+        case .LineDoubleScale:
+            DJHUD.sharedManager.visualViewBackgroundColor = VisualViewColor.black.description
+            return DJActivityIndicatorView(type: .LineDoubleScale)
+        case .CookieTerminal:
+            DJHUD.sharedManager.visualViewBackgroundColor = VisualViewColor.black.description
+            return DJActivityIndicatorView(type: .CookieTerminal)
         }
     }
     
@@ -109,6 +117,8 @@ public enum DJHUDType {
         case .LineScale: return "LineScale"
         case .LineScaleParty: return "LineScaleParty"
         case .BallScaleMultiple: return "BallScaleMultiple"
+        case .LineDoubleScale: return "LineDoubleScale"
+        case .CookieTerminal: return "CookieTerminal"
         }
     }
     

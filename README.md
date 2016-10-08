@@ -28,7 +28,7 @@ Use pod:
 
 	target 'Your project name' do
 
-	pod 'DJHUD', '~> 1.1.3'
+	pod 'DJHUD'
 
 	end
 	
@@ -55,6 +55,8 @@ It has ten types of activity indicator, there are type names:
     case LineScale
     case LineScaleParty
     case BallScaleMultiple
+    case LineDoubleScale
+    case CookieTerminal
 	
 ### ScreenShot
 

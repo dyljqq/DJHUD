@@ -24,6 +24,8 @@ public enum DJActivityIndicatorType {
     case LineScale
     case LineScaleParty
     case BallScaleMultiple
+    case LineDoubleScale
+    case CookieTerminal
     
     var layer: DJAnimationProtocol {
         switch self {
@@ -42,6 +44,8 @@ public enum DJActivityIndicatorType {
         case .LineScale: return DJActivityIndicatorLineScale()
         case .LineScaleParty: return DJActivityIndicatorLineScaleParty()
         case .BallScaleMultiple: return DJActivityIndicatorBallScaleMultiple()
+        case .LineDoubleScale: return DJActivityIndicatorLineDoubleScale()
+        case .CookieTerminal: return DJActivityIndicatorCookieTerminal()
         }
     }
 }

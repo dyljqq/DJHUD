@@ -27,6 +27,8 @@
 		7333AFCA1D951308007FAFEE /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFC91D951308007FAFEE /* HUD.swift */; };
 		7333AFCC1D951355007FAFEE /* DJHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFCB1D951355007FAFEE /* DJHUD.swift */; };
 		7333AFCE1D98B90F007FAFEE /* DJHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7333AFCD1D98B90F007FAFEE /* DJHUDErrorView.swift */; };
+		734D61201DA88A370097D1AB /* DJActivityIndicatorLineDoubleScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734D611F1DA88A370097D1AB /* DJActivityIndicatorLineDoubleScale.swift */; };
+		734D61221DA897180097D1AB /* DJActivityIndicatorCookieTerminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734D61211DA897180097D1AB /* DJActivityIndicatorCookieTerminal.swift */; };
 		7377E9E91D9CDC78007F2E32 /* DJActivityIndicatorBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377E9E81D9CDC78007F2E32 /* DJActivityIndicatorBallPulse.swift */; };
 		7377E9EB1D9CEB72007F2E32 /* DJActivityIndicatorBallRotateClip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377E9EA1D9CEB72007F2E32 /* DJActivityIndicatorBallRotateClip.swift */; };
 		7377E9ED1D9CF1D9007F2E32 /* DJActivityIndicatorBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7377E9EC1D9CF1D9007F2E32 /* DJActivityIndicatorBallClipRotatePulse.swift */; };
@@ -68,6 +70,8 @@
 		7333AFC91D951308007FAFEE /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		7333AFCB1D951355007FAFEE /* DJHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUD.swift; sourceTree = "<group>"; };
 		7333AFCD1D98B90F007FAFEE /* DJHUDErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJHUDErrorView.swift; sourceTree = "<group>"; };
+		734D611F1DA88A370097D1AB /* DJActivityIndicatorLineDoubleScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorLineDoubleScale.swift; sourceTree = "<group>"; };
+		734D61211DA897180097D1AB /* DJActivityIndicatorCookieTerminal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorCookieTerminal.swift; sourceTree = "<group>"; };
 		7377E9E81D9CDC78007F2E32 /* DJActivityIndicatorBallPulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorBallPulse.swift; sourceTree = "<group>"; };
 		7377E9EA1D9CEB72007F2E32 /* DJActivityIndicatorBallRotateClip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorBallRotateClip.swift; sourceTree = "<group>"; };
 		7377E9EC1D9CF1D9007F2E32 /* DJActivityIndicatorBallClipRotatePulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DJActivityIndicatorBallClipRotatePulse.swift; sourceTree = "<group>"; };
@@ -176,6 +180,8 @@
 				732D1A9E1D9E06980076B552 /* DJActivityIndicatorLineScale.swift */,
 				732D1AA01D9E0AE20076B552 /* DJActivityIndicatorLineScaleParty.swift */,
 				732D1AA21D9E0E440076B552 /* DJActivityIndicatorBallScaleMultiple.swift */,
+				734D611F1DA88A370097D1AB /* DJActivityIndicatorLineDoubleScale.swift */,
+				734D61211DA897180097D1AB /* DJActivityIndicatorCookieTerminal.swift */,
 				7378B2081D9BC9B500F2988B /* DJActivityIndicatorView.swift */,
 			);
 			path = ShowView;
@@ -264,6 +270,7 @@
 				732D1AA11D9E0AE20076B552 /* DJActivityIndicatorLineScaleParty.swift in Sources */,
 				7377E9EF1D9CF7D7007F2E32 /* DJActivityIndicatorBallRotateMultiple.swift in Sources */,
 				7378B2101D9BC9B500F2988B /* DJActivityIndicatorTriplePulse.swift in Sources */,
+				734D61201DA88A370097D1AB /* DJActivityIndicatorLineDoubleScale.swift in Sources */,
 				7377E9F11D9CFC03007F2E32 /* DJActivityIndicatorBallRotate.swift in Sources */,
 				732D1AA31D9E0E440076B552 /* DJActivityIndicatorBallScaleMultiple.swift in Sources */,
 				7333AFC31D950739007FAFEE /* DJAnimationKeyPath.swift in Sources */,
@@ -282,6 +289,7 @@
 				7333AFCC1D951355007FAFEE /* DJHUD.swift in Sources */,
 				7378B20E1D9BC9B500F2988B /* DJActivityIndicatorNineDots.swift in Sources */,
 				7333AFA81D94F9C4007FAFEE /* AppDelegate.swift in Sources */,
+				734D61221DA897180097D1AB /* DJActivityIndicatorCookieTerminal.swift in Sources */,
 				7378B2131D9BC9B500F2988B /* DJAnimationProtocol.swift in Sources */,
 				7333AFCE1D98B90F007FAFEE /* DJHUDErrorView.swift in Sources */,
 				7378B20C1D9BC9B500F2988B /* DJActivityIndicatorDoubleBounce.swift in Sources */,

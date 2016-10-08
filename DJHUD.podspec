@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DJHUD"
-  s.version      = "1.1.3"
+  s.version      = "1.2.0"
   s.summary      = "A HUD for swift project..."
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/dyljqq/DJHUD.git", :tag => "1.1.3" }
+  s.source       = { :git => "https://github.com/dyljqq/DJHUD.git", :tag => "1.2.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
